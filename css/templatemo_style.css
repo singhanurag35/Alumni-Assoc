@@ -1,466 +1,626 @@
-/*
+/* ==========================================================================
+    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== 
 
-Dragonfruit Template
-
-http://www.templatemo.com/tm-411-dragonfruit
+   Circle Template 
+   
+   http://www.templatemo.com/tm-410-circle
 
 */
 
-body {
-    font-family: 'Century Gothic', sans-serif;
-}
-.container-fluid {
-    max-width: 1600px;
-}
-.container_wapper {
-    width: 100%;
-    background: #c0c0c0;
-}
-.rcolor {
-    background: #f00;
-}
-.gcolor {
-    background: #0f0;
-}
-.bcolor {
-    background: #00f;
-}
-h1 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    text-align: center;
-    font: normal normal normal 34px/60px 'Century Gothic', sans-serif;
-    color: #3b3b3b;
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
 }
 
-.templatemo_logo a:hover {
-	text-decoration: none;
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
 }
-/*menu*/
-#templatemo_mobile_menu {
-    top: 0;
-    width: 250px;
-    height: 100%;
-    background: #f9f9f9;
-    position: fixed;
-    z-index: 5500;
-    right: -1500px;
-    display: none;
-    overflow: auto;
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
 }
-#templatemo_mobile_menu ul li a {
-    text-align: left;
-    background: #f15556;
-    color: #000;
-}
-#templatemo_mobile_menu ul li:hover a {
-    background: #c83233;
-	color: #fff;
-}
-#templatemo_banner_menu {
-    width: 100%;
-    background: #f9f9f9;
-    height: 94px;
-    border-bottom: 1px solid #f15556;
-    position: fixed;
-    top: 0;
-    z-index: 5000;
-}
-#templatemo_banner_menu #logo_img {
-    max-height: 90px;
-    float: left; 
-}
-#templatemo_banner_menu #logo_text {
-    font: normal normal normal 36px/1em 'Century Gothic', sans-serif;
-    margin-top: 30px;
-    padding-left: 60px;
-    text-align: left;
-    color: #e35354;
-}
-#templatemo_banner_menu #logo_text span {
-    color: #9fb038;
-}
-#templatemo_banner_menu ul li a ,
-#templatemo_banner_menu ul li a:focus {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font: normal normal normal 18px/23px 'Century Gothic', sans-serif;
-    color: #000;
-    background: repeat-x url("../images/banner_bg.jpg") 0 -94px ;
-    transition-duration: .5s;
-}
-#templatemo_banner_menu ul li a:hover ,
-#templatemo_banner_menu ul li a.current
-{
-    background-position: 0 0px ;
-    background-color: #f15556;
-    color: #ffffff;
-}
-#templatemo_banner_menu #mobile_menu {
-    padding-top: 25px;
-    font-size: 30px;
-    float: right;
-    color: #e35354;
-}
-/*banner slide*/
-.banner { 
-    width: 100%;
-    height: 500px;
-    margin-top: 94px;
-    position: relative; 
-    overflow: hidden;
-}
-.banner ul { 
-    list-style: none; 
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
     padding: 0;
 }
-.banner ul li { 
-    float: left; 
-    height: 500px;
-    width: 100%;
+
+img {
+    vertical-align: middle;
 }
-.banner div.slide_caption {
-	background: rgba(0, 0, 0, 0.0);
-    max-width: 600px;
-    margin: 120px auto auto auto;
-}
-.banner div.slide_caption h1 ,
-.banner div.slide_caption p {
-    background: none ;
-    text-align: center;
-    color: #fff;
-    line-height: 2em;
-    text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
-}
-.banner div.slide_caption a {
-	color: #FF6;
-}
-.banner div.slide_caption h1 {
-    font-size: 32px;
+
+fieldset {
+    border: 0;
     margin: 0;
+    padding: 0;
 }
-.banner div.slide_caption p {
-    font-size: 16px;
+
+textarea {
+    resize: vertical;
 }
-.templatemo_banner_slide_01 {
-    background: url('../images/templatemo_banner_slide_01.jpg');
-    background-size: cover;
+
+.blue {
+	color: #06F;
 }
-.templatemo_banner_slide_02 {
-    background: url('../images/templatemo_banner_slide_02.jpg');
-    background-size: cover;
+
+.green {
+	color: #0A0;
 }
-.templatemo_banner_slide_03 {
-    background: url('../images/templatemo_banner_slide_03.jpg');
-    background-size: cover;
+
+.menu-wrapper ul.menu, ul.tabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-/*about our organization*/
-#templatemo_about {
-    background: #ffffff;
-    float: left;
+
+.spacing {
+	margin-bottom: 40px;
 }
-#templatemo_about .about_icon img {
-    width: 100%;
-}
-#templatemo_about .about_icon h2 {
-    text-align: center;
-    font: normal normal normal 20px/25px 'Century Gothic', sans-serif;
-}
-#templatemo_about .about_icon .imgwap {
-    text-align: center;
-    border-radius: 75px;
-}
-#templatemo_about .about_icon p {
-    text-align: center;
-    font: normal normal normal 14px/23px 'Century Gothic', sans-serif;
-}
-#templatemo_about .mission {
-    background-color: #bd3e25;
-    color: #f5bd48;
-}
-#templatemo_about .product {
-    background-color: #334d5c;
-    color: #f5bd48;
-}
-#templatemo_about .testimonial {
-    background-color: #efc84a;
-    color: #ab4921;
-}
-#templatemo_about .statistic {
-    background-color: #334d5c;
-    color: #efc84a;
-}
-#templatemo_about #testimonial_text_wap {
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+    background-color: transparent;
+    border: 0;
     overflow: hidden;
+    *text-indent: -9999px;
 }
-#templatemo_about #testimonial_text_wap h2 {
-    font-size: 24px;
-    margin: 0;
-    padding: 12px 0;
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
 }
-#templatemo_about #testimonial_text_wap h3 {
-    font-size: 20px;
-    margin: 0;
-    padding: 12px 0;
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
 }
-#templatemo_about #testimonial_text_wap img {
-    margin-bottom: 20px ;
+
+.invisible {
+    visibility: hidden;
 }
-#templatemo_about #testimonial_text_wap p {
-    font-size: 14px;
-    line-height: 2em;
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
 }
-#templatemo_about .testimonial_text {
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+    Forms
+   ========================================================================== */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="password"] {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 7px 10px;
     width: 100%;
-    float: left;
 }
-#templatemo_about .pre_next {
-    font-size: 70px;
-    top: 50%;
-    margin-top: -35px;
-    position: absolute;
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="password"]:focus {
+    outline: none !important;
 }
-#templatemo_about .pre_next a {
-    color: #6698b5;
-    float: left;
+
+form .button {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 7px 20px;
+    text-transform: uppercase;
 }
-#templatemo_about .pre_next a:hover {
-    color: #334d5c;
+
+form .button:focus, form .button:active {
+    outline: none !important;
 }
-#templatemo_about #testimonial_text_wap h1 {
-    font-size: 70px;
-    top: 50%;
-    margin-top: -35px;
-}
-#templatemo_about .testimonial_top_bottom_spacer {
-    padding-bottom: 80px;
-}
-/*events*/
-#templatemo_events {
-    background: #6698b5;
-    float: left;
-    overflow: hidden;
-}
-#templatemo_events h1{
+
+form .button.yellow {
+    background: #e7af2a;
     color: #fff;
+    border: 1px solid #c89316;
 }
-#templatemo_events .event_box_wap {
-    overflow:hidden;
-    margin-bottom: 30px;
-    cursor: pointer;
-    position: relative;
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+  a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
 }
-#templatemo_events .event_box_wap .event_box_img {
-    position: relative;
-    top: 0;
+
+thead {
+    display: table-header-group;
+    /* h5bp.com/t */;
 }
-#templatemo_events .event_box_wap .event_box_caption {
-    position: relative;
-    top: 0;
-    padding-bottom: 10px;
-    background: #fff;
+
+tr,
+  img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,
+  h3 {
+    page-break-after: avoid;
+}
+}
+/* ==========================================================================
+    Structure & Defaults
+   ========================================================================== */
+html, body {
+    font-size: 100%;
     width: 100%;
-    border-top: 3px solid #3c6f8c;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: baseline;
 }
-#templatemo_events .event_box_wap h1,
-#templatemo_events .event_box_wap p {
-    margin: 0;
-    color: #000000;
-    text-align: left;
+
+body {
+    font: 13px/19px "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    color: #777777;
+    background-color: #4c4c4c;
 }
-#templatemo_events .event_box_wap p {
-    padding: 5px 20px 15px 20px;
+
+a {
+    color: #d8aa46;
+    text-decoration: none !important;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
 }
-#templatemo_events .event_box_wap h1 {
-    padding: 20px 20px 20px 20px;
-    font-size: 24px;
-    line-height: 24px;
+
+a:hover {
+    color: #d8aa46;
 }
-/*timeline*/
-#templatemo_timeline {
-    background: #fff;
-    float: left;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #333333;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-#templatemo_timeline .container-fluid {
-    max-width: 1600px;
-    position: absolute;
-    margin: auto;
-    margin-bottom: 80px;
-    background: url("../images/time_line_bg.jpg") repeat-y center top;
+
+h1 {
+    font-size: 2.6em;
 }
-#templatemo_timeline .time_line_wap {
-    position: absolute;
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .8em;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bg-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container-fluid {
+    padding: 60px 80px;
+}
+
+.content {
     display: none;
 }
-#templatemo_timeline .time_line_caption {
-    background: #f15556;
-    padding: 10px 20px 10px 20px ;
-    border-radius: 5px;
-    height: 40px;
-    clear: both;
-    color: #fff; 
+
+/* ==========================================================================
+    Header Site Styling
+   ========================================================================== */
+.sidebar-menu {
+    position: relative;
+    z-index: 9;
+    padding-right: 80px;
 }
-#templatemo_timeline .time_line_paragraph {
-    background: #e6e6e6;
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%;
-    margin-top: 50px;
-    font-family: 'Century Gothic', sans-serif;
+
+.logo-wrapper {
+    background-color: #e5e8ed;
+    text-align: center;
+    padding: 40px;
 }
-#templatemo_timeline .time_line_paragraph a {
-    color: #000;
-    text-decoration: underline;
-}
-#templatemo_timeline .left_timeline {
-    margin-left: 30px;
-}
-#templatemo_timeline .left_timeline .time_line_caption {
-    float: right;
-    margin-right: 0px;
-}
-#templatemo_timeline .right_timeline .time_line_caption {
-    float: left;
-}
-#templatemo_timeline .time_line_paragraph h1 {
-    text-align: left;
+
+.logo-wrapper h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
     margin: 0;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000;
-    padding: 20px 20px 20px 20px;
 }
-#templatemo_timeline .time_line_paragraph p {
-    padding: 0px 20px 20px 20px;
-    text-align: left;
-    margin: 0;
+
+.logo-wrapper h1 span {
+    margin-top: 10px;
+    display: block;
     font-size: 14px;
-    line-height: 2em;
-    color: #000;
+    font-weight: 400;
+    color: #777777;
 }
-#templatemo_timeline .left_timer {
-    float: right;
-    background: url("../images/arrow_left.png") 0 5px;
+
+.menu-wrapper {
+    display: block;
 }
-#templatemo_timeline .right_timer {
-    float: left;
-    background: url("../images/arrow_right.png") 0px 5px;
+
+.menu-wrapper ul.menu {
+    display: none;
+    background-color: white;
+    text-align: center;
 }
-#templatemo_timeline .left_timer ,
-#templatemo_timeline .right_timer {
-    padding-left:30px;
-    width: 101px;
+
+.menu-wrapper ul.menu li {
+    border-top: 1px solid #c7cdd8;
+}
+
+.menu-wrapper ul.menu li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 18px 30px;
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu-wrapper a.toggle-menu {
+    display: block;
+    background-color: #d8aa46;
+    color: white;
+    text-align: center;
+}
+
+.menu-wrapper a.toggle-menu i {
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+#prevslide {
     position: absolute;
+    right: 40px;
+    top: 0;
 }
-#templatemo_timeline .left_timer span,
-#templatemo_timeline .right_timer span {
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
-    background: #e6e6e6;
+
+#nextslide {
+    position: absolute;
+    top: 41px;
+    right: 40px;
+}
+
+#prevslide, #nextslide {
+    width: 40px;
+    height: 40px;
+    background-color: #d8aa46;
+    color: white;
+    opacity: 1 !important;
+    cursor: pointer;
     text-align: center;
-    color: #fff;
+    line-height: 40px;
+}
+
+#prevslide i, #nextslide i {
     font-size: 24px;
-    padding-top: 3px;
-    margin-top: 3px;
 }
-/*contact*/
-#templatemo_contact {
-    background: #6698b5;
-    float: left;
+
+/* ==========================================================================
+    About Styling
+   ========================================================================== */
+.toggle-content {
+    margin-top: 30px;
+    display: block;
+    padding: 30px;
+    background-color: white;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
 }
-#templatemo_contact h1 {
-    color: #fff;
+
+.icon-item {
+    margin-bottom: 30px;
+    padding: 40px 30px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+    display: block;
 }
-#templatemo_contact h2 {
-    font-size: 24px;
-    color: #fff;
-    padding-top: 0;
-    padding-bottom: 20px;
+
+.icon-item i {
+    font-size: 36px;
 }
-#templatemo_contact_map {
+
+.icon-item.active {
+    background-color: #d8aa46;
+    color: white;
+}
+
+ul.tabs {
+    text-align: center;
+    display: block;
+}
+
+.member-item {
+    margin-top: 30px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
+}
+
+.member-item .thumb {
     width: 100%;
-    height: 320px;
-    float: left;
+    overflow: hidden;
+}
+
+.member-item .thumb img {
+    width: 100%;
+}
+
+.member-item h4 {
+    margin: 20px 0 10px 0;
+}
+
+.member-item span {
+    text-transform: uppercase;
+    color: #d8aa46;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+    Services Styling
+   ========================================================================== */
+.services .icon-item {
+    padding: 70px 40px;
+}
+
+/* ==========================================================================
+    Gallery Styling
+   ========================================================================== */
+.g-item {
+    margin-bottom: 30px;
+    padding: 6px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+  /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+}
+
+.g-item img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.g-item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d8aa46;
+    text-align: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.g-item:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.g-item span {
+    color: white;
+    font-weight: 300;
+    font-size: 60px;
+    height: 60px;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    line-height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    left: 0;
+}
+
+/* ==========================================================================
+    Contact Styling
+   ========================================================================== */
+.google-map {
+    height: 250px;
+    padding: 6px;
+    background-color: white;
     margin-bottom: 40px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
 }
-#templatemo_contact ul li a {
-    background: none;
-}
-#templatemo_contact ul li a i {
-    width: 60px;
-    padding: 20px 0;
-    font-size: 32px;
-    color: #fff;
-    text-align: center;
-}
-#templatemo_contact p {
-    color: #fff;
-    line-height: 30px;
-	margin-top: 15px;
-}
-#templatemo_contact input {
+
+.google-map iframe {
     width: 100%;
-    height: 50px;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
+}
+
+form input, form textarea {
+    width: 100%;
     padding: 10px;
-    border: none;
+    margin-bottom: 30px;
+    outline: 0;
+    border: 0;
+    border: 2px solid #e5e8ed;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
 }
-#templatemo_contact textarea {
-    border: none;
-    width: 100%;
-    height: 150px;
-    padding: 10px;
+
+.contact-form textarea {
+    min-height: 160px;
 }
-#templatemo_contact button {
-    width: 100%;
-    height: 50px;
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: none;
-    background: #eaeaea;
+
+.contact-form input.button {
+    width: auto;
+    background-color: #d8aa46;
+    border-color: #d8aa46;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
 }
-#templatemo_contact button:hover {
-    background: #f4f4f4;
+
+.footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 10px;
+    color: white;
+    font-size: 13px;
 }
-/*templatemo_footer*/
-#templatemo_footer {
-    width: 100%;
-    border-top: 2px solid #507f9a;
-    height: 70px;
-    background: #447693;
-    float: left;
+
+.footer a {
+    color: white;
 }
-#templatemo_footer p {
-    padding-top: 20px;
-    color: #fff;
-    text-align: center;
-}
-#templatemo_footer a {
-    color: #fff;
-    text-decoration: underline;
-}
-/*  Small devices (tablets, 768px and up)  */
-@media (max-width: 768px ) { 
-    #templatemo_about .pre_next {
-        font-size: 15px;
+
+/*------------------------------------------------------
+	RESPONSIVE STYLES 
+--------------------------------------------------------*/
+@media (max-width: 1024px) {
+    .sidebar-menu {
+        padding-right: 40px;
     }
-    #templatemo_timeline .right_timer {
-        background-position: center center;
+
+    #prevslide {
+        right: 0;
+    }
+
+    #nextslide {
+        right: 0;
+    }
+
+    .footer {
+        position: relative;
     }
 }
-/*  Medium devices (desktops, 992px and up)  */
-@media (max-width: 970px ) {
-    #templatemo_timeline .right_timer {
-        background-position: 100px 5px;
+
+@media (max-width: 991px) {
+    .sidebar-menu {
+        margin-bottom: 30px;
+        padding-right: 40px;
     }
-    #templatemo_banner_menu #logo_text {
-        font: normal normal normal 30px/1em 'Century Gothic', sans-serif;
-    }
-    #templatemo_timeline .container-fluid {
-        background: url("../images/time_line_bg.jpg") repeat-y 28px 0;
+
+    .icon-item {
+        position: relative;
+        z-index: 99;
     }
 }
-/*  Large devices (large desktops, 1200px and up)  */
-@media (min-width: 1200px ) {
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 20px;
+    }
 }
